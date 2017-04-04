@@ -1,7 +1,8 @@
 class PublisherHouse < ApplicationRecord
 
+	has_many :books
 	validates_uniqueness_of :name
 	validates :name, presence: true
-	validates :name, :numericality => { :less_than_or_equal_to => 150 }
+	validates :name, length: { maximum: 150 }
 
 end

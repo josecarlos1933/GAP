@@ -1,19 +1,11 @@
-<p id="notice"><%= notice %></p>
+<div class="form" style="position: absolute;  top: 50%; left: 50%; width: 800px; height: 600px; margin-left: -220px; margin-top: -200px; font-size: 24px; color: gray; opacity: 0.8;">
+	<p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Name:</strong>
-  <%= @publisher_house.name %>
-</p>
+	<p>
+	  <strong>Name:</strong>
+	  <%= @publisher_house.name %>
+	</p>
 
-<p>
-  <strong>Created at:</strong>
-  <%= @publisher_house.created_at %>
-</p>
-
-<p>
-  <strong>Updated at:</strong>
-  <%= @publisher_house.updated_at %>
-</p>
-
-<%= link_to 'Edit', edit_publisher_house_path(@publisher_house) %> |
-<%= link_to 'Back', publisher_houses_path %>
+	<%= link_to 'Edit', edit_publisher_house_path(@publisher_house) %> |
+	<%= link_to 'Back', publisher_houses_path %>
+</div>

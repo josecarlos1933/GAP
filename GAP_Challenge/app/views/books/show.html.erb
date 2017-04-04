@@ -1,24 +1,26 @@
-<p id="notice"><%= notice %></p>
+<div class="form" style="position: absolute;  top: 50%; left: 50%; width: 800px; height: 600px; margin-left: -220px; margin-top: -200px; font-size: 24px; color: gray; opacity: 0.8;">
+	<p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Title:</strong>
-  <%= @book.title %>
-</p>
+	<p>
+	  <strong>Title:</strong>
+	  <%= @book.title %>
+	</p>
 
-<p>
-  <strong>Pages:</strong>
-  <%= @book.pages %>
-</p>
+	<p>
+	  <strong>Pages:</strong>
+	  <%= @book.pages %>
+	</p>
 
-<p>
-  <strong>Cover:</strong>
-  <%= @book.cover %>
-</p>
+	<p>
+	  <strong>Cover:</strong>
+	  <%= @book.cover %>
+	</p>
 
-<p>
-  <strong>Published at:</strong>
-  <%= @book.published_at %>
-</p>
+	<p>
+	  <strong>Published at:</strong>
+	  <%= @book.published_at %>
+	</p>
 
-<%= link_to 'Edit', edit_book_path(@book) %> |
-<%= link_to 'Back', books_path %>
+	<%= link_to 'Edit', edit_book_path(@book) %> |
+	<%= link_to 'Back', books_path %>
+</div>
