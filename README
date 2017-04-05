@@ -6,4 +6,4 @@ This app is expected to be delivered at thursday, march 6, 2017
 
 INSTALLATION AND RUNNING
 Please get this repository and get into the folder locally, run the bundle install command and start the app with rails s command
-after that, go to the routes given at the requirements sheet.
+after that, go to the route localhost:3000/main_pages
