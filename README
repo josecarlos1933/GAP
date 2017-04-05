@@ -1,0 +1,9 @@
+Library application.
+This is a small Ruby on Rails application that manages a library database, it contains books and their associated publisher house,
+as well as their authors.
+
+This app is expected to be delivered at thursday, march 6, 2017
+
+INSTALLATION AND RUNNING
+Please get this repository and get into the folder locally, run the bundle install command and start the app with rails s command
+after that, go to the routes given at the requirements sheet.
